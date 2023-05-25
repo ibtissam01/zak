@@ -3,8 +3,8 @@ import streamlit as st
 st.title("Mon application Streamlit")
 
 try:
-    with open('html.pbit', 'r', encoding='utf-8') as f:
-        html_contents = f.read()
+   with open('html.pbit', 'r', encoding='cp1252') as f:
+    html_contents = f.read()
 except FileNotFoundError:
     st.error("Le fichier html.pbit n'a pas été trouvé.")
     html_contents = ""
