@@ -13,6 +13,4 @@ except Exception as e:
     html_contents = ""
 
 if html_contents:
-    st.componentsThis updated code includes some error handling that attempts to read in the contents of `html.pbit` and displays an error message if there are any issues.
-
-If the file is read in successfully, the code calls the `st.components.v1.html` function to display the dashboard in the Streamlit app. This should help you identify any issues with reading in the file and ensure that your Streamlit app runs without errors.
+    st.components
